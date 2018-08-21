@@ -1,0 +1,57 @@
+.font_style {
+  font-family: "Baloo Bhai", cursive;
+  font-size: 50px;
+  color: grey;
+  width: 40%;
+  padding-left: 20px;
+}
+
+.name_color {
+  font-size: 65px;
+  color: rgb(1, 146, 201);
+}
+
+.hi {
+  font-size: 90px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+i {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: grey;
+}
+
+.fa-instagram {
+  padding-right: 60px;
+}
+
+.fa-instagram:hover {
+  color: rgb(129, 67, 153);
+}
+
+.fa-twitter:hover {
+  color: rgb(29, 161, 242);
+}
+
+.fa-linkedin:hover {
+  color: rgb(0, 119, 181);
+}
+
+.fa-github:hover {
+  color: black;
+}
+.flexbox_arrange {
+  padding-top: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* width: 30px; */
+}

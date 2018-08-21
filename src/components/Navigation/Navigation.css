@@ -1,0 +1,37 @@
+.navigation {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 52px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* position: fixed; */
+}
+
+.common_headings,
+.common_headings1,
+.common_headings2,
+.common_headings3,
+.common_headings4 {
+  font-family: "Baloo Bhai", cursive;
+  color: rgb(1, 146, 201);
+  display: none;
+  font-size: 20px;
+}
+
+.height_adj {
+  height: 20px;
+  width: 30px;
+}
+
+.one {
+  /* margin-left: 100px; */
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  margin-right: 80px;
+}
