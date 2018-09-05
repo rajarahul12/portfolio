@@ -32,7 +32,7 @@ class App extends Component {
             onRouteChange={this.onRouteChange}
             strings={[
               "am a FullStack Developer",
-              "love everything about <br>coding",
+              "love everything about coding",
               "solve problems."
             ]}
           />

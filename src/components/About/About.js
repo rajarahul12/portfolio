@@ -3,7 +3,7 @@ import "./About.css";
 class About extends Component {
   render() {
     return (
-      <div className="flex_about anim">
+      <div className="anim1">
         <div>
           <img src={require("./1.jpg")} className="img_adj" alt="" />
         </div>

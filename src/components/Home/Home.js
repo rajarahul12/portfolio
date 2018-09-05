@@ -39,9 +39,6 @@ class Home extends Component {
           />
         </div>
         <div>
-          <i className="fas fa-stroopwafel fa-10x" />
-        </div>
-        <div>
           <div className="icons" style={{ marginTop: "20px" }}>
             <div style={{ marginBottom: "25px", marginTop: "40px" }}>
               <a
