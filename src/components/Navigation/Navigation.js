@@ -52,6 +52,12 @@ class Navigation extends Component {
     document.querySelector(".fa-envelope").style.display = "inline";
   }
 
+  //onClickBtn
+  onClickBtn = route => {
+    this.props.onRouteChange(route);
+    // console.log(route);
+  };
+
   render() {
     return (
       <div className="navigation">
@@ -61,7 +67,10 @@ class Navigation extends Component {
           onMouseLeave={this.changeText1}
         >
           <i className="fas fa-home fa-lg toggle" />
-          <span className="common_headings" onClick={this.onClickBtn}>
+          <span
+            className="common_headings"
+            onClick={() => this.onClickBtn("home")}
+          >
             HOME
           </span>
         </div>
@@ -71,7 +80,12 @@ class Navigation extends Component {
           onMouseLeave={this.changeText2}
         >
           <i className="fas fa-user fa-lg" />
-          <span className="common_headings1">ABOUT</span>
+          <span
+            className="common_headings1"
+            onClick={() => this.onClickBtn("about")}
+          >
+            ABOUT
+          </span>
         </div>
         <div
           className="three height_adj"
@@ -79,7 +93,12 @@ class Navigation extends Component {
           onMouseLeave={this.changeText3}
         >
           <i className="fas fa-brain fa-lg" />
-          <span className="common_headings2">SKILLS</span>
+          <span
+            className="common_headings2"
+            onClick={() => this.onClickBtn("skills")}
+          >
+            SKILLS
+          </span>
         </div>
         <div
           className="four height_adj"
@@ -87,16 +106,26 @@ class Navigation extends Component {
           onMouseLeave={this.changeText4}
         >
           <i className="fas fa-video fa-lg" />
-          <span className="common_headings3">PROJECTS</span>
+          <span
+            className="common_headings3"
+            onClick={() => this.onClickBtn("projects")}
+          >
+            PROJECTS
+          </span>
         </div>
-        <div
+        {/* <div
           className="five height_adj"
           onMouseOver={this.changeIcon5}
           onMouseLeave={this.changeText5}
         >
           <i className="fas fa-envelope fa-lg" />
-          <span className="common_headings4">CONTACT</span>
-        </div>
+          <span
+            className="common_headings4"
+            onClick={() => this.onClickBtn("contact")}
+          >
+            CONTACT
+          </span>
+        </div> */}
       </div>
     );
   }

@@ -25,11 +25,6 @@ class Home extends Component {
     this.typed.destroy();
   }
 
-  //ROUTE CHANGE
-  onClickBtn = () => {
-    this.props.onRouteChange("home");
-  };
-
   render() {
     return (
       <div className="flexbox_arrange">
@@ -59,7 +54,7 @@ class Home extends Component {
             </div>
             <div style={{ marginBottom: "25px" }}>
               <a
-                class="margin_bottom"
+                className="margin_bottom"
                 href="https://www.linkedin.com/in/raja-rahul-87a172141/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -69,7 +64,7 @@ class Home extends Component {
             </div>
             <div style={{ marginBottom: "25px" }}>
               <a
-                class="margin_bottom"
+                className="margin_bottom"
                 href="https://twitter.com/RajaRahul123"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,7 +74,7 @@ class Home extends Component {
             </div>
             <div style={{ marginBottom: "25px" }}>
               <a
-                class="margin_bottom"
+                className="margin_bottom"
                 href="https://www.instagram.com/raja__rahul__maddula/"
                 rel="noopener noreferrer"
                 target="_blank"
